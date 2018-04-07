@@ -1,6 +1,8 @@
-{"knight_hero":  {
+{
+  "knight_hero":  {
     "name": "Valiant Knight",
     "key": "knight_hero",
+    "health": 200,
     "scale": 0.35,
     "orientation": "E",
     "baseSpeed": 200,
@@ -12,11 +14,18 @@
     "collider": {
       "size": 70,
       "offset": {"x": 87, "y": 80}
+    },
+    "nameText": {
+        "origin": {"x": 0.5, "y": 5.5}
+    },
+    "healthBar": {
+        "offset": {"x": 0, "y": 0}
     }
   },
   "priest_hero": {
     "name": "Avenging Priest",
     "key": "priest_hero",
+    "health": 150,
     "scale": 0.35,
     "orientation": "E",
     "baseSpeed": 200,
@@ -28,11 +37,18 @@
     "collider": {
       "size": 70,
       "offset": {"x": 92, "y": 80}
+    },
+    "nameText": {
+        "origin": {"x": 0.5, "y": 5.5}
+    },
+    "healthBar": {
+        "offset": {"x": 0, "y": 0}
     }
   },
   "mage_hero":{
     "name": "Magical Mage",
     "key": "mage_hero",
+    "health": 150,
     "scale": 0.35,
     "orientation": "E",
     "baseSpeed": 200,
@@ -44,11 +60,18 @@
     "collider": {
       "size": 70,
       "offset": {"x": 92, "y": 90}
+    },
+    "nameText": {
+        "origin": {"x": 0.5, "y": 4.9}
+    },
+    "healthBar": {
+        "offset": {"x": 0, "y": 12}
     }
   },
   "fire_monster":{
     "name": "Fire Monster",
     "key": "fire_monster",
+    "health": 151,
     "scale": 0.35,
     "orientation": "E",
     "baseSpeed": 200,
@@ -60,11 +83,18 @@
     "collider": {
       "size": 70,
       "offset": {"x": 95, "y": 60}
+    },
+    "nameText": {
+        "origin": {"x": 0.5, "y": 5.5}
+    },
+    "healthBar": {
+        "offset": {"x": 0, "y": 0}
     }
   },
   "ice_monster":{
     "name": "Ice Monster",
     "key": "ice_monster",
+    "health": 180,
     "scale": 0.35,
     "orientation": "E",
     "baseSpeed": 200,
@@ -76,11 +106,18 @@
     "collider": {
       "size": 70,
       "offset": {"x": 88, "y": 60}
+    },
+    "nameText": {
+        "origin": {"x": 0.5, "y": 5.5}
+    },
+    "healthBar": {
+        "offset": {"x": 0.5, "y": 0}
     }
   },
   "golem_monster":{
     "name": "Rock Golem",
     "key": "golem_monster",
+    "health": 220,
     "scale": 0.35,
     "orientation": "E",
     "baseSpeed": 200,
@@ -92,22 +129,35 @@
     "collider": {
       "size": 70,
       "offset": {"x": 85, "y": 70}
+    },
+    "nameText": {
+        "origin": {"x": 0.5, "y": 5.5}
+    },
+    "healthBar": {
+        "offset": {"x": 0, "y": 0}
     }
   },
   "spider_monster":{
     "name": "Menacing Spider",
     "key": "spider_monster",
+    "health": 150,
     "scale": 0.35,
     "orientation": "E",
     "baseSpeed": 200,
     "projectile": {
       "type": "ven",
       "baseRange": 1000,
-      "fireOffset": {"x": 0, "y": -150}
+      "fireOffset": {"x": 0, "y": -50}
     },
     "collider": {
       "size": 70,
       "offset": {"x": 84, "y": 115}
+    },
+    "nameText": {
+        "origin": {"x": 0.5, "y": 3.9}
+    },
+    "healthBar": {
+        "offset": {"x": 0, "y": 30}
     }
   }
 }
